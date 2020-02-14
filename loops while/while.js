@@ -68,7 +68,73 @@
 // var a = [[1, 2, 1, 24], [8, 11, 9, 4], [7, 0, 7, 27]];
 // res = 0;
 // for (var i = 0; i < a.length; i++) {
-//     res = a[i] + res;
+//     for (var b = 0; b < 4; b++) {
+//         console.log(a[i][b])
+//     }
 // }
 
 // console.log(res);
+
+//Task 6
+
+// var sum = 0;
+// for (var a = 1; a <= 20; a++) {
+//     sum = (a * a) + sum
+// }
+
+// console.log(sum);
+
+//Task 7
+
+// var a = [80, 77, 88, 95, 68];
+// var sum = 0;
+// for (var i = 0; i < a.length; i++) {
+
+//     sum = a[i] + sum
+// }
+
+// avarage = sum / a.length
+
+// var grade;
+// if (avarage < 60) {
+//     grade = "F";
+// } else if (avarage < 70 && avarage > 60) {
+//     grade = "D";
+// } else if (avarage < 80 && avarage > 70) {
+//     grade = "C"
+// } else if (avarage < 90 && avarage > 80) {
+//     grade = "B";
+// } else if (avarage < 100 && a > 90) {
+//     grade = "A";
+// }
+
+
+// console.log(grade);
+
+//Task 8
+
+
+// for (var i = 1; i <= 100; i++) {
+//     if (i % 3 === 0 && i % 5 === 0) {
+//         console.log("FizzBuzz");
+//     } else if (i % 3 === 0) {
+//         console.log("Fizz");
+//     } else if (i % 5 === 0) {
+//         console.log("Buzz");
+//     } else {
+//         console.log(i);
+//     }
+// }
+
+// Nenad mi je rekao da izbacim console.log iz for-a
+
+// var d = 4;
+// var star = "";
+// var a = [];
+// for (var i = 0; i < d; i++) {
+//     star += "*\t";
+//     a[i] = star;
+//     for (var j = 0; j < a.length;j++)
+
+// }
+// console.log()
