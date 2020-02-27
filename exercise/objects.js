@@ -137,3 +137,4 @@
 
 // var a = buildRecipe("Gyros", "Greek", 5, ["2 lb boneless, skinless chicken thighs (910 g), pounded flat", "½ large yellow onion, peeled and root side removed", "1 wooden skewer, sturdy, roughly 10 inches (25 cm)"], 60, "Check menu");
 // console.log(a.deleteIngredient());
+console.log();
