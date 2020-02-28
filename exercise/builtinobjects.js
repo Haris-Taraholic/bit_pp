@@ -61,7 +61,7 @@
 
 // var smallElem = function (array) {
 //     var sortedArr = array.slice().sort(function (a, b) { return a - b });
-//     var minIndex = array.lastIndexOf(sortedArr[0]);
+//     varminIndex = array.lastIndexOf(sortedArr[0]);
 
 //     return {
 //         min: sortedArr[0],
@@ -73,3 +73,53 @@
 // console.log(smallElem(arr));
 
 ///////////////////// TASK 5 part a /////////////////////////////
+
+// Write a function that finds all the elements in a given array less than a given element. 
+// 	Input: [2, 3, 8, -2, 11, 4], 6 
+// // 	Output: [2, 3, -2, 4]
+
+// var returnSmaller = function (array, givenNum) {
+//     var a = [2, 3, 8, -2, 11, 4];
+//     var b = [];
+//     for (var i = 0; i < a.length; i++) {
+//         if (a[i] < givenNum) {
+//             b.push(a[i]);
+//         }
+//     }
+//     return b;
+// }
+// console.log(returnSmaller([3, 5, 7, 2, 1], 5));
+
+///////////////////// TASK 5 part b /////////////////////////////
+
+// var findWord = function (array) {
+//     var word = "pro";
+//     var b = [];
+//     for (var i = 0; i < array.length; i++) {
+//         var string = array[i].toLowerCase();
+//         string = string.slice(0, 3)
+//         if (word === string) {
+//             b[b.length] = array[i];
+//         }
+//     }
+//     return b;
+// }
+
+// var res = findWord(["JavaScript", "Programming", "fun", "product"]);
+// console.log(res);
+
+///////////////////// TASK 6 a /////////////////////////////
+
+var list = [
+    { name: 'beer', price: 100 },
+    { name: 'snacks', price: 100 },
+    { name: 'chocolate', price: 120 }
+]
+var calculate = function (array) {
+    var res = 0;
+    for (var i = 0; i < array.length; i++) {
+        res += array[i].price;
+    }
+    return res;
+}
+console.log(calculate(list));
