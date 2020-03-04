@@ -59,17 +59,17 @@
 
 ///////////////////// TASK 4 /////////////////////////////
 
-// var smallElem = function (array) {
-//     var sortedArr = array.slice().sort(function (a, b) { return a - b });
-//     var minIndex = array.lastIndexOf(sortedArr[0]);
+var smallElem = function (array) {
+    var sortedArr = array.slice().sort(function (a, b) { return a - b });
+    var minIndex = array.lastIndexOf(sortedArr[0]);
+    return {
+        min: sortedArr[0],
+        minIndex: minIndex
+    };
+}
 
-//     return {
-//         min: sortedArr[0],
-//         minIndex: minIndex
-//     };
-// }
+var arr = [1, 4, -2, 11, 8, 1, -2, 3];
 
-// var arr = [1, 4, -2, 11, 8, 1, -2, 3];
-// console.log(smallElem(arr));
+console.log(smallElem(arr));
 
 ///////////////////// TASK 5 part a /////////////////////////////
